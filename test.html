@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Console</title>
+</head>
+<body>
+    <h1>Testing OpenCode</h1>
+    <iframe src="http://localhost:8000" width="100%" height="600" id="testFrame"></iframe>
+    <div id="console"></div>
+    <script>
+        // Monitor the iframe for errors
+        window.onerror = function(msg, url, line, col, error) {
+            console.error('Error:', msg, 'at', url + ':' + line);
+        };
+    </script>
+</body>
+</html>

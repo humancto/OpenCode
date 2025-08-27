@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+bower_components/
+
+# Build outputs
+dist/
+build/
+*.min.js
+*.min.css
+
+# Environment and config
+.env
+.env.local
+.env.*.local
+config.js
+firebase-config.js
+# IMPORTANT: Never commit real Firebase credentials!
+# lib/firebase-sdk.js  # Uncomment this after setting up your own credentials
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+database-debug.log
+ui-debug.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Backup files
+*.backup
+*.bak
+*-backup.js
+scripts/firepad-broken.js
+
+# Private files
+private/
+secrets/
+credentials/
+
+# User-specific files
+my-firebase-config.js
+custom-auth.js
